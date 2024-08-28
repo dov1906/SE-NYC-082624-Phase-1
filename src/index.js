@@ -55,3 +55,16 @@ const otherFoods = [
 ]
 
 // write your code here
+
+// deliverable 1
+burgers.forEach(burger => {
+
+    console.log(burger.name)
+})
+
+//deliverable 2
+
+burgers.find(burger => {
+    return burger.name === "Flatburger"
+})
+
