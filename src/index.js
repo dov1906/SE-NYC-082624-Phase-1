@@ -62,6 +62,11 @@ foods.forEach(food => {
 const foodDetailImage = document.querySelector('.detail-image')
 foodDetailImage.src = foods[0].image
 
+foodDetailImage.addEventListener('mouseover', () => {
+    console.log('you clicked the image')
+
+})
+
 const foodName = document.querySelector('.name') 
 foodName.textContent = foods[0].name
 
